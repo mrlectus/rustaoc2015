@@ -11,7 +11,7 @@ fn surface_area(dimention: &[i32]) -> i32 {
 
 #[allow(unused)]
 fn first_part() {
-    let v1 = include_str!("./day_2");
+    let v1 = include_str!("./input");
     let group = v1
         .trim()
         .split('\n')
@@ -35,7 +35,7 @@ fn first_part() {
 
 #[allow(unused)]
 fn second_part() {
-    let v1 = include_str!("./day_2");
+    let v1 = include_str!("./input");
     let mut groups = v1
         .trim()
         .split('\n')

@@ -1,5 +1,5 @@
 fn main() {
-    let dfile = include_str!("./day_1");
+    let dfile = include_str!("./input");
     let mut sum = 0;
     for (x, y) in dfile.as_bytes().iter().enumerate() {
         match y {
